@@ -3,7 +3,7 @@ $( document ).ready(function() {
     var widthScreen = $( window ).width() - 200;
     var heightScreen = $( window ).height() - 150;
     var temp = "";
-    var count = 140;
+    var count = 0;
     var name = "cake"
     var intervalId;
     var hey = 0

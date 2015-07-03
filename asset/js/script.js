@@ -40,6 +40,7 @@ $( document ).ready(function() {
         if(hey == 0){
             $('.btn-cake').fadeOut();
             window.intervalId = setInterval(make_a_cake, 100);
+            document.getElementById('sound').play();
             hey = 1;
         }
         else{
